@@ -1,20 +1,20 @@
 {
-	"name":"Trials LTD",
+	"name":"Educate",
 	"thumbnail":"trialsltd.png",
 	"screenshot":"trialsltd.png",
     "templateType":"standard",
-    "tags": { "en": ["minimal", "modern", "light", "social", "minimal", "classic"] },
+    "tags": { "en": ["kids", "education", "colourful", "nursery", "school", "children"] },
     "pageTypes":["home"],
     "colorSwatches":
     {
         "Swatch 1": {
             "color1":"#e8e6e0",
-            "color2":"#51604b",
-            "color3":"#141414",
-            "color4":"#141414",
+            "color2":"#253f9c",
+            "color3":"#253f9c",
+            "color4":"#c21620",
             "color5":"#4b4b4b",
             "color6":"#ffffff",
-            "color7":"#141414"
+            "color7":"#253f9c"
         },
         "Swatch 2": {
             "color1":"#e8e6e0",
@@ -57,35 +57,35 @@
         "images/feature.jpg"
     ],
     "fontSwatch": {
-       "title": "Volkorn & Open Sans",
+       "title": "Love Ya Like A Sister",
         "font1": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
-            "font-size": "38px",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
+            "font-size": "34px",
             "font-weight": "400",
             "line-height": "46px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
-            "font-size": "32px",
-            "font-weight": "500",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
+            "font-size": "28px",
+            "font-weight": "400",
             "line-height": "42px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
-            "font-size": "28px",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
+            "font-size": "24px",
             "font-weight": "inherit",
             "line-height": "38px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
             "font-size": "18px",
-            "font-weight": "500",
+            "font-weight": "400",
             "line-height": "24px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
@@ -99,9 +99,9 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
             "font-size": "17px",
-            "font-weight": "500",
+            "font-weight": "400",
             "line-height": "24px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit",
@@ -110,9 +110,9 @@
             "background-color-hover": "transparent"
          },
         "font7": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
-            "font-size": "16px",
-            "font-weight": "500",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
+            "font-size": "14px",
+            "font-weight": "400",
             "line-height": "22px",
             "color": "@color-swatch6",
             "letter-spacing": "inherit",
@@ -120,7 +120,7 @@
             "background-color-hover": "@color-swatch4"
         },
         "font8": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
             "font-size": "32px",
             "font-weight": "inherit",
             "line-height": "40px",
@@ -136,9 +136,9 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-family": "\"Love Ya Like A Sister\", Georgia, serif",
             "font-size": "34px",
-            "font-weight": "500",
+            "font-weight": "400",
             "line-height": "32px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
