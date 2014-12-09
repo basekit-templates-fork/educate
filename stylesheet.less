@@ -121,19 +121,38 @@ pre {
 	background-color: @color-swatch7;
 	padding: 0;
 	.contact {
-		font-size: 0;
+		// font-size: 0;
 		@media @tablet {
 			padding: 0 25px;
 		}
+	}
+
+	// Profile Widgets
+	// -----------------------------
+
+	// Address
+	.bk-profile-address p {
+		color: @color-swatch6;
+	}
+	// Form
+	.widget.profile form fieldset input {
+		margin-bottom: 0;
+	}
+
+	&.profile span {
+			color: @color-swatch6;
+			font-family: @font-swatch4-font-family;
+			font-size: @font-swatch5-font-size;
+			line-height: @font-swatch5-line-height;
 	}
 	.widget.profile:nth-child(1) {
 		display: inline-block;
 		color: @color-swatch6;
 	}
 	.widget.profile:nth-child(1) {
+		color: @color-swatch6;
 		margin: 0;
 		text-align: left;
-		margin-right: 5%;
 		width: 50%;
 		vertical-align: middle;
 		@media @mobile {
@@ -148,7 +167,9 @@ pre {
 				text-align: center;
 			}
 		}
-		span a {
+		span a,
+		a {
+			color: @color-swatch6;
 			background-color: transparent;
 			box-shadow: none;
 			vertical-align: middle;
@@ -157,6 +178,7 @@ pre {
 			&:hover {
 				height: 32px;
 				width: 32px;
+				text-decoration: none;
 			}
 		}
 	}
@@ -189,7 +211,7 @@ pre {
 		.bk-profile-socialicons {
 			margin: 0;
 			a {
-				text-indent: 9999px!important;
+				text-indent: 9999px !important;
 			}
 		}
 	}
@@ -319,6 +341,9 @@ pre {
 }
 
 .widget.extendednavigation ul {
+	@media @mobile {
+		padding-top: 70px;
+	}
 	li {
 		@media @tablet {
 			border-bottom: 1px solid darken(@color-swatch1, 10%);
@@ -493,6 +518,9 @@ pre {
 div[role="main"] {
 	background: @color-swatch6;
 	padding: 45px 30px;
+	@media @mobile {
+		padding: 60px 30px;
+	}
 }
 
 
@@ -506,14 +534,22 @@ div[role="main"] {
 	background-color: @color-swatch7;
 	padding: 20px 30px 10px;
 	.container {
-		font-size: 0;
+		// font-size: 0;
 	}
+
+	.bk-profile-socialicons {
+			margin: 0;
+			a {
+				text-indent: 9999px !important;
+			}
+		}
+
 	.widget {
 		&.content, &.profile {
 			display: inline-block;
 		}
 		&.content {
-			margin-right: 5%;
+			// margin-right: 5%;
 			width: 45%;
 			@media @mobile {
 				margin-right: 0;
@@ -534,7 +570,8 @@ div[role="main"] {
 				text-align: center;
 				width: 100%;
 			}
-			span {
+			span,
+			a {
 				color: @color-swatch6;
 				font-family: @font-swatch4-font-family;
 				font-size: @font-swatch5-font-size;
