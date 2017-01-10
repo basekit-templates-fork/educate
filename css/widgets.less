@@ -16,7 +16,8 @@ button.btn,
 .blog-search-submit-button,
 .ecombasket-summary-link,
 .basket-summary-empty-cta,
-.productlist-filter .productlist-search .btn  {
+.productlist-filter .productlist-search .btn,
+.advancedcontactform button  {
 	background-color: @font-swatch7-background-color;
 	@shadow: 5px 6px 0px 0px rgba(50, 50, 50, 0.1);
 	.box-shadow(@shadow);
@@ -134,7 +135,8 @@ label {
 
 // Contact Form
 
-.widget.contactform {
+.widget.contactform,
+.advancedcontactform {
 	label {
 		margin-bottom: 8px;
 	}
@@ -157,6 +159,26 @@ label {
 	    	color: @color-swatch5;
 	    }
 	}
+}
+
+
+// Advanced Contact Form
+.select-wrap {
+    margin: 10px 0 20px;
+    display: inline-block;
+}
+
+.advancedcontactform__option-list {
+    margin: 10px 0 10px;
+}
+
+.advancedcontactform__label {
+    width: 100%;
+    display: block;
+}
+
+.input--checkbox {
+	box-shadow: none;
 }
 
 
