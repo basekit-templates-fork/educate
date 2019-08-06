@@ -1,5 +1,6 @@
 {
 	"name":"Educate",
+	"versionTenCompatible": 1,
 	"thumbnail":"educate.png",
 	"screenshot":"educate-screenshot.jpg",
     "templateType":"standard",
