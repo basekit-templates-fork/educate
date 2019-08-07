@@ -16,6 +16,10 @@
 
   .container[role="main"] {
     padding: 65px 0 65px 0;
+
+    @media @tablet {
+      padding: 65px 30px 65px 0;
+    }
   }
 
   // Main content spacing (replace with corresponding template class)
@@ -50,11 +54,6 @@
     margin-right: auto;
     max-width: @container-width;
     width: 95%;
-
-    @media @mobile {
-      width: 90%;
-    }
-
   }
 
 
